@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Data</title>
+</head>
+<body>
+    <h1>Items List</h1>
+    <h1>{{data}}</h1>
+    {% for x in data %}
+    <img src="{{x.productImage}}"></img>
+    {% endfor %}
+</body>
+</html>
